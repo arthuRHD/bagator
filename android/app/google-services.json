@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "210286845891",
+    "project_id": "bagator-abcd2",
+    "storage_bucket": "bagator-abcd2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:210286845891:android:d5431adc0010158ae66776",
+        "android_client_info": {
+          "package_name": "com.example.bagator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "210286845891-hqp4pgll2pe5gqv4pi6v6klsbnoet6uh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuGHvJ-HmeTr3L5nM9VCODZmvc8AAImoc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "210286845891-hqp4pgll2pe5gqv4pi6v6klsbnoet6uh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "210286845891-ebsf35jhevrasonm1mlf463ljva56t6g.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.bagator"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

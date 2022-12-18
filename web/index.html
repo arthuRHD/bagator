@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+    <base href="$FLUTTER_BASE_HREF" />
+
+    <meta charset="UTF-8" />
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
+    <meta name="description" content="Reserve tes baguettes." />
+
+    <!-- iOS meta tags & icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="Bagator" />
+    <link rel="apple-touch-icon" href="icons/Icon-192.png" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      sizes="57x57"
+      href="icons/icons8-baguette-57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      sizes="60x60"
+      href="icons/icons8-baguette-60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      sizes="72x72"
+      href="icons/icons8-baguette-72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      sizes="76x76"
+      href="icons/icons8-baguette-76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      sizes="114x114"
+      href="icons/icons8-baguette-114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      sizes="120x120"
+      href="icons/icons8-baguette-120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      sizes="144x144"
+      href="icons/icons8-baguette-144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      sizes="152x152"
+      href="icons/icons8-baguette-152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      sizes="180x180"
+      href="icons/icons8-baguette-180.png"
+    />
+    <link color="#26E07F" rel="mask-icon" href="icons/icons8-baguette-64.svg" />
+    <meta
+      name="msapplication-square70x70logo"
+      content="icons/icons8-baguette-70.png"
+    />
+    <meta
+      name="msapplication-TileImage"
+      content="icons/icons8-baguette-144.png"
+    />
+    <meta
+      name="msapplication-square150x150logo"
+      content="icons/icons8-baguette-150.png"
+    />
+    <meta
+      name="msapplication-square310x310logo"
+      content="icons/icons8-baguette-310.png"
+    />
+    <meta name="msapplication-TileColor" content="#C0FFEE" />
+    <meta name="application-name" content="Bagator" />
+
+    <title>Bagator</title>
+    <link rel="manifest" href="manifest.json" />
+
+    <script>
+      // The value below is injected by flutter build, do not touch.
+      var serviceWorkerVersion = null;
+    </script>
+    <!-- This script adds the flutter initialization JS code -->
+    <script src="flutter.js" defer></script>
+  </head>
+  <body>
+    <script>
+      window.addEventListener("load", function (ev) {
+        // Download main.dart.js
+        _flutter.loader
+          .loadEntrypoint({
+            serviceWorker: {
+              serviceWorkerVersion: serviceWorkerVersion,
+            },
+          })
+          .then(function (engineInitializer) {
+            return engineInitializer.initializeEngine();
+          })
+          .then(function (appRunner) {
+            return appRunner.runApp();
+          });
+      });
+    </script>
+  </body>
+</html>

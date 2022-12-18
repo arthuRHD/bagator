@@ -1,0 +1,60 @@
+{
+    "name": "Bagator",
+    "short_name": "Bagator",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
+    "description": "Commande tes baguettes.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/icons8-baguette-outline-icons-16.png",
+            "sizes": "16x16",
+            "type": "image/png",
+            "density": "1.5"
+        },
+        {
+            "src": "icons/icons8-baguette-outline-icons-32.png",
+            "sizes": "32x32",
+            "type": "image/png",
+            "density": "1.5"
+        },
+        {
+            "src": "icons/icons8-baguette-outline-icons-64.png",
+            "sizes": "64x64",
+            "type": "image/png",
+            "density": "1.5"
+        },
+        {
+            "src": "icons/icons8-baguette-outline-icons-72.png",
+            "sizes": "72x72",
+            "type": "image/png",
+            "density": "1.5"
+        },
+        {
+            "src": "icons/icons8-baguette-outline-icons-96.png",
+            "sizes": "96x96",
+            "type": "image/png",
+            "density": "2.0"
+        },
+        {
+            "src": "icons/icons8-baguette-outline-icons-144.png",
+            "sizes": "144x144",
+            "type": "image/png",
+            "density": "3.0"
+        },
+        {
+            "src": "icons/icons8-baguette-outline-icons-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "density": "4.0"
+        },
+        {
+            "src": "icons/icons8-baguette-outline-icons-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
