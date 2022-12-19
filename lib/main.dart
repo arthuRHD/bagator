@@ -65,7 +65,7 @@ class MyApp extends StatelessWidget {
             padding: MaterialStateProperty.all<EdgeInsets>(
               const EdgeInsets.all(24),
             ),
-            backgroundColor: MaterialStateProperty.all<Color>(Colors.blue),
+            backgroundColor: MaterialStateProperty.all<Color>(Colors.orange),
             foregroundColor: MaterialStateProperty.all<Color>(Colors.white),
           ),
         ),
