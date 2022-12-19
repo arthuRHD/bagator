@@ -17,6 +17,8 @@ void main() async {
     webRecaptchaSiteKey: '6Lfv-Y8jAAAAAMLe9trXwEycmINS8jlFAi7bFaOZ',
   );
 
+  await FirebaseAppCheck.instance.setTokenAutoRefreshEnabled(true);
+
   await FirebaseAnalytics.instance.setCurrentScreen(screenName: 'Sign Up');
   FlutterFireUIAuth.configureProviders([
     const EmailProviderConfiguration(),
