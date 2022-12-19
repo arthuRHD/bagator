@@ -4,12 +4,17 @@ import 'package:flutterfire_ui/auth.dart';
 import 'auth_gate.dart';
 import 'package:firebase_analytics/firebase_analytics.dart';
 import 'package:flutterfire_ui/i10n.dart';
+import 'package:firebase_app_check/firebase_app_check.dart';
 import 'firebase_options.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
+  );
+
+  await FirebaseAppCheck.instance.activate(
+    webRecaptchaSiteKey: '6Lfv-Y8jAAAAAMLe9trXwEycmINS8jlFAi7bFaOZ',
   );
 
   await FirebaseAnalytics.instance.setCurrentScreen(screenName: 'Sign Up');
