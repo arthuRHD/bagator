@@ -57,27 +57,23 @@ class AuthGate extends StatelessWidget {
                 padding: const EdgeInsets.all(20),
                 child: AspectRatio(
                   aspectRatio: 1,
-                  child: Container(
-                    color: Colors.black,
-                    child: Stack(
-                      children: [
-                        Image.asset(
-                          "assets/icons/baguette-3d.png",
-                          fit: BoxFit.scaleDown,
-                        ),
-                        const Padding(
-                          padding: EdgeInsets.all(40.0),
-                          child: Text(
-                            "Bagator.",
-                            style: TextStyle(
-                              color: Colors.white,
-                              fontWeight: FontWeight.bold,
-                              fontSize: 56,
-                            ),
+                  child: Stack(
+                    children: [
+                      Image.asset(
+                        "assets/icons/bagaboy.png",
+                        fit: BoxFit.scaleDown,
+                      ),
+                      const Padding(
+                        padding: EdgeInsets.all(40.0),
+                        child: Text(
+                          "Bagator.",
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 56,
                           ),
                         ),
-                      ],
-                    ),
+                      ),
+                    ],
                   ),
                 ),
               );
